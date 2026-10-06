@@ -9,12 +9,8 @@ int main() {
         sum = sum + arr[i];
     }
 
-    // 2. Average 
-    float avg = sum / 5.0;
-
     // 3. Results 
     printf("Sum = %d\n", sum);
-    printf("Average = %.2f\n", avg);
 
     return 0;
 }
